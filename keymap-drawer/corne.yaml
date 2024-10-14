@@ -77,7 +77,7 @@ layers:
   - END
   - PG UP
   - $$mdi:apple-keyboard-control$$
-  - KP 0
+  - $$mdi:keyboard-tab$$
   - '1'
   - '2'
   - '3'
