@@ -63,10 +63,10 @@
             //                                                      enter
 
             bindings = <
-&kp ESCAPE        &kp Q  &kp W             &kp E     &kp R  &kp T        &kp UP_ARROW     &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LEFT_SHIFT    &kp A  &kp S             &kp D     &kp F  &kp G        &kp DOWN_ARROW   &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp APOSTROPHE
-&kp LEFT_CONTROL  &kp Z  &kp X             &kp C     &kp V  &kp B        &kp LEFT_ARROW   &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_ALT
-                         &kp C_PLAY_PAUSE  &kp LGUI  &mo 1  &kp ENTER    &kp RIGHT_ARROW  &kp SPACE  &mo 2  &kp DEL
+&kp ESCAPE        &kp Q  &kp W             &kp E     &kp R      &kp T    &kp UP_ARROW     &kp Y  &kp U      &kp I      &kp O    &kp P     &kp BSPC
+&kp LEFT_SHIFT    &kp A  &kp S             &kp D     &kp F      &kp G    &kp DOWN_ARROW   &kp H  &kp J      &kp K      &kp L    &kp SEMI  &kp APOSTROPHE
+&kp LEFT_CONTROL  &kp Z  &kp X             &kp C     &kp V      &kp B    &kp LEFT_ARROW   &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_ALT
+                         &kp C_PLAY_PAUSE  &kp LGUI  &kp ENTER  &mo 1    &kp RIGHT_ARROW  &mo 2  &kp SPACE  &kp DEL
                                                                          &kp ENTER
             >;
 
@@ -87,7 +87,7 @@
 &kp ESCAPE      &none     &kp NUMBER_7  &kp N8        &kp N9        &kp N0       &mmv MOVE_UP     &kp C_PREVIOUS  &kp C_NEXT      &none           &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp BSPC
 &kp LEFT_SHIFT  &kp HOME  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS    &mmv MOVE_DOWN   &kp SLASH       &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp END            &kp PG_UP
 &kp LCTRL       &kp TAB   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS     &mmv MOVE_LEFT   &kp ASTERISK    &none           &kp DOWN_ARROW  &none            &none              &kp PG_DN
-                          &kp C_PP      &kp PERIOD    &none         &kp ENTER    &mmv MOVE_RIGHT  &kp SPACE       &mo 3           &kp DELETE
+                          &kp C_PP      &kp PERIOD    &kp ENTER     &none        &mmv MOVE_RIGHT  &mo 3           &kp SPACE       &kp DELETE
                                                                                  &mkp LCLK
             >;
 
@@ -105,11 +105,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE      &kp EXCL  &kp AT            &kp HASH  &kp DLLR  &kp PRCNT    &mmv MOVE_UP     &kp CARET  &kp AMPS        &kp ASTRK       &kp LPAR         &kp RPAR          &kp BSPC
-&kp LEFT_SHIFT  &kp HOME  &kp CAPS          &none     &none     &kp MINUS    &mmv MOVE_DOWN   &none      &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp END           &kp GRAVE
-&kp LCTRL       &kp TAB   &none             &none     &none     &none        &mmv MOVE_LEFT   &none      &none           &kp DOWN_ARROW  &none            &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-                          &kp C_PLAY_PAUSE  &kp LGUI  &mo 3     &kp ENTER    &mmv MOVE_RIGHT  &kp SPACE  &none           &kp DEL
-                                                                             &mkp LCLK
+&kp ESCAPE      &kp EXCL  &kp AT            &kp HASH  &kp DLLR   &kp PRCNT    &mmv MOVE_UP     &kp CARET  &kp AMPS        &kp ASTRK       &kp LPAR         &kp RPAR          &kp BSPC
+&kp LEFT_SHIFT  &kp HOME  &kp CAPS          &none     &none      &kp MINUS    &mmv MOVE_DOWN   &none      &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp END           &kp GRAVE
+&kp LCTRL       &kp TAB   &none             &none     &none      &none        &mmv MOVE_LEFT   &none      &none           &kp DOWN_ARROW  &none            &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+                          &kp C_PLAY_PAUSE  &kp LGUI  &kp ENTER  &mo 3        &mmv MOVE_RIGHT  &none      &kp SPACE       &kp DEL
+                                                                              &mkp LCLK
             >;
 
             label = "SYMBOL";
