@@ -48,7 +48,7 @@ layers:
   - $$mdi:keyboard-space$$
   - raise
   - $$mdi:backspace-reverse-outline$$
-  - LGUI
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   lower:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -97,7 +97,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '3'
   - $$mdi:backspace-reverse-outline$$
-  - LGUI
+  - $$mdi:mouse-left-click-outline$$
   raise:
   - $$mdi:keyboard-esc$$
   - '!'
@@ -146,7 +146,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:backspace-reverse-outline$$
-  - LGUI
+  - $$mdi:mouse-left-click-outline$$
   '3':
   - $$mdi:keyboard-esc$$
   - F1
