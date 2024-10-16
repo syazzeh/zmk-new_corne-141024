@@ -51,7 +51,7 @@ layers:
   - LGUI
   lower:
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '0'
   - '7'
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -71,9 +71,9 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-right-bold$$
   - END
   - PG UP
   - $$mdi:apple-keyboard-control$$
@@ -84,13 +84,13 @@ layers:
   - +
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - '*'
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PG DN
   - $$mdi:play-pause$$
-  - '0'
+  - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
